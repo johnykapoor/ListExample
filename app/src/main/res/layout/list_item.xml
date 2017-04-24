@@ -89,9 +89,9 @@
 
        <ImageButton
            android:id="@+id/minus"
-           android:layout_width="20sp"
-           android:layout_height="20sp"
-           android:src="@mipmap/minus"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:srcCompat="@drawable/ic_remove_circle_outline_black_24dp"
            android:background="@null"
 
            />
@@ -100,13 +100,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
+            android:background="@null"
             />
 
         <ImageButton
             android:id="@+id/pluse"
-            android:layout_width="20sp"
-            android:layout_height="20sp"
-            android:src="@mipmap/pluse"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_add_circle_outline_black_24dp"
+            android:background="@null"/>
 
 
     </LinearLayout>
